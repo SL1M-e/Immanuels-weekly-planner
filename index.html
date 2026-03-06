@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immanuel's Weekly Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📅 Immanuel's Weekly Planner</h1>
+            <p>Plan your week and track your progress</p>
+        </header>
+
+        <div class="week-summary">
+            <h2>Weekly Progress</h2>
+            <div class="summary-stats">
+                <div class="stat">
+                    <span class="stat-label">Total Activities</span>
+                    <span class="stat-value" id="totalActivities">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Completed</span>
+                    <span class="stat-value" id="completedActivities">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Completion %</span>
+                    <span class="stat-value" id="completionPercent">0%</span>
+                </div>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </div>
+
+        <div class="week-planner">
+            <div id="days-container"></div>
+        </div>
+
+        <footer>
+            <p>Stay productive! 💪</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
